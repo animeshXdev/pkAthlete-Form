@@ -27,7 +27,7 @@ app.post('/create', async (req, res)=>{
     const createAthlete = await athModel.create({
         name,
         age,
-        email
+        email 
     })
     res.redirect('/read')
 })
@@ -67,7 +67,7 @@ app.post('/delete/:id', async (req, res) => {
     res.redirect('/read'); // redirect to list page
   } catch (err) {
     console.error(err);
-    res.status(500).send("Failed to delete athlete");
+    res.status(500).send("Failed to delete athlete ");
   }
 });
 
