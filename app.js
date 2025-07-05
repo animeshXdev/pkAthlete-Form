@@ -4,6 +4,9 @@ const dotenv = require('dotenv')
 dotenv.config()
 const path = require('path')
 const athModel = require('./models/athletes')
+const mongoose = require('mongoose')
+const uri = process.env.Mongo_URI 
+mongoose.connect(uri)
 
 const port = process.env.PORT || 4000
 
