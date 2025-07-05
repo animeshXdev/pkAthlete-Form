@@ -1,0 +1,31 @@
+{
+  "name": "17crud",
+  "version": "1.0.0",
+  "description": "this is crud with mongoose",
+  "keywords": [
+    "npm",
+    "dotenv",
+    "express",
+    "mongoose",
+    "crud",
+    "ejs",
+    "javascript",
+    "html",
+    "css",
+    "tailwind"
+  ],
+  "license": "ISC",
+  "author": "Animesh",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "dependencies": {
+    "dotenv": "^17.0.1",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}
